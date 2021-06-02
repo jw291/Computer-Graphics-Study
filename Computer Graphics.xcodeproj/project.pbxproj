@@ -7,7 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB1DEB81265E570C00B10B33 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB1DEB80265E570C00B10B33 /* main.cpp */; };
+		AB1DEB89265E571700B10B33 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB88265E571700B10B33 /* OpenGL.framework */; };
+		AB1DEB8B265E571B00B10B33 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB8A265E571B00B10B33 /* GLUT.framework */; };
+		AB1DEB93265E572900B10B33 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB1DEB92265E572900B10B33 /* main.cpp */; };
+		AB1DEB97265E579800B10B33 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB88265E571700B10B33 /* OpenGL.framework */; };
+		AB1DEB98265E579D00B10B33 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB8A265E571B00B10B33 /* GLUT.framework */; };
+		AB1DEBA0265E57C100B10B33 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB1DEB9F265E57C100B10B33 /* main.cpp */; };
+		AB1DEBA4265E57C900B10B33 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB88265E571700B10B33 /* OpenGL.framework */; };
+		AB1DEBA5265E57CF00B10B33 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB8A265E571B00B10B33 /* GLUT.framework */; };
+		AB1DEBAD265FABDD00B10B33 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB1DEBAC265FABDD00B10B33 /* main.cpp */; };
+		AB1DEBB1265FABE900B10B33 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB88265E571700B10B33 /* OpenGL.framework */; };
+		AB1DEBB2265FABED00B10B33 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB8A265E571B00B10B33 /* GLUT.framework */; };
+		AB1DEBBA265FBEA700B10B33 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB1DEBB9265FBEA700B10B33 /* main.cpp */; };
+		AB1DEBBE265FBEB000B10B33 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB88265E571700B10B33 /* OpenGL.framework */; };
+		AB1DEBBF265FBEB500B10B33 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB8A265E571B00B10B33 /* GLUT.framework */; };
+		ABE723D02660F36500532944 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABE723CF2660F36500532944 /* main.cpp */; };
+		ABE723D42660F36A00532944 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB88265E571700B10B33 /* OpenGL.framework */; };
+		ABE723D52660F36D00532944 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB8A265E571B00B10B33 /* GLUT.framework */; };
+		ABE723DD2660FC5600532944 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABE723DC2660FC5600532944 /* main.cpp */; };
+		ABE723E12660FC5B00532944 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB88265E571700B10B33 /* OpenGL.framework */; };
+		ABE723E22660FC5F00532944 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB8A265E571B00B10B33 /* GLUT.framework */; };
+		ABE723EA2666316400532944 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABE723E92666316400532944 /* main.cpp */; };
+		ABE723EE2666316A00532944 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB88265E571700B10B33 /* OpenGL.framework */; };
+		ABE723EF2666317800532944 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB8A265E571B00B10B33 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,11 +42,89 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		AB1DEB8E265E572900B10B33 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB1DEB9B265E57C100B10B33 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB1DEBA8265FABDD00B10B33 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB1DEBB5265FBEA700B10B33 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ABE723CB2660F36500532944 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ABE723D82660FC5600532944 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ABE723E52666316400532944 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AB1DEB7D265E570C00B10B33 /* Computer Graphics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Computer Graphics"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB1DEB80265E570C00B10B33 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AB1DEB88265E571700B10B33 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		AB1DEB8A265E571B00B10B33 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		AB1DEB90265E572900B10B33 /* 01_OpenGL_Start */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 01_OpenGL_Start; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1DEB92265E572900B10B33 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AB1DEB9D265E57C100B10B33 /* 02_KeyBoardCallBack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 02_KeyBoardCallBack; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1DEB9F265E57C100B10B33 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AB1DEBAA265FABDD00B10B33 /* 03_MouseCallback */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 03_MouseCallback; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1DEBAC265FABDD00B10B33 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AB1DEBB7265FBEA700B10B33 /* 04_MenuCallBack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 04_MenuCallBack; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1DEBB9265FBEA700B10B33 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ABE723CD2660F36500532944 /* 05_Animation_Double Buffering */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05_Animation_Double Buffering"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE723CF2660F36500532944 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ABE723DA2660FC5600532944 /* 06_CubeDrawing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 06_CubeDrawing; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE723DC2660FC5600532944 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ABE723E72666316400532944 /* 07_ModelTransform */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 07_ModelTransform; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE723E92666316400532944 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +132,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1DEB8B265E571B00B10B33 /* GLUT.framework in Frameworks */,
+				AB1DEB89265E571700B10B33 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1DEB8D265E572900B10B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1DEB98265E579D00B10B33 /* GLUT.framework in Frameworks */,
+				AB1DEB97265E579800B10B33 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1DEB9A265E57C100B10B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1DEBA5265E57CF00B10B33 /* GLUT.framework in Frameworks */,
+				AB1DEBA4265E57C900B10B33 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1DEBA7265FABDD00B10B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1DEBB2265FABED00B10B33 /* GLUT.framework in Frameworks */,
+				AB1DEBB1265FABE900B10B33 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1DEBB4265FBEA700B10B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1DEBBF265FBEB500B10B33 /* GLUT.framework in Frameworks */,
+				AB1DEBBE265FBEB000B10B33 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE723CA2660F36500532944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE723D52660F36D00532944 /* GLUT.framework in Frameworks */,
+				ABE723D42660F36A00532944 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE723D72660FC5600532944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE723E22660FC5F00532944 /* GLUT.framework in Frameworks */,
+				ABE723E12660FC5B00532944 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE723E42666316400532944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE723EF2666317800532944 /* GLUT.framework in Frameworks */,
+				ABE723EE2666316A00532944 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,7 +207,15 @@
 			isa = PBXGroup;
 			children = (
 				AB1DEB7F265E570C00B10B33 /* Computer Graphics */,
+				AB1DEB91265E572900B10B33 /* 01_OpenGL_Start */,
+				AB1DEB9E265E57C100B10B33 /* 02_KeyBoardCallBack */,
+				AB1DEBAB265FABDD00B10B33 /* 03_MouseCallback */,
+				AB1DEBB8265FBEA700B10B33 /* 04_MenuCallBack */,
+				ABE723CE2660F36500532944 /* 05_Animation_Double Buffering */,
+				ABE723DB2660FC5600532944 /* 06_CubeDrawing */,
+				ABE723E82666316400532944 /* 07_ModelTransform */,
 				AB1DEB7E265E570C00B10B33 /* Products */,
+				AB1DEB87265E571600B10B33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,6 +223,13 @@
 			isa = PBXGroup;
 			children = (
 				AB1DEB7D265E570C00B10B33 /* Computer Graphics */,
+				AB1DEB90265E572900B10B33 /* 01_OpenGL_Start */,
+				AB1DEB9D265E57C100B10B33 /* 02_KeyBoardCallBack */,
+				AB1DEBAA265FABDD00B10B33 /* 03_MouseCallback */,
+				AB1DEBB7265FBEA700B10B33 /* 04_MenuCallBack */,
+				ABE723CD2660F36500532944 /* 05_Animation_Double Buffering */,
+				ABE723DA2660FC5600532944 /* 06_CubeDrawing */,
+				ABE723E72666316400532944 /* 07_ModelTransform */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,9 +237,73 @@
 		AB1DEB7F265E570C00B10B33 /* Computer Graphics */ = {
 			isa = PBXGroup;
 			children = (
-				AB1DEB80265E570C00B10B33 /* main.cpp */,
 			);
 			path = "Computer Graphics";
+			sourceTree = "<group>";
+		};
+		AB1DEB87265E571600B10B33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB1DEB8A265E571B00B10B33 /* GLUT.framework */,
+				AB1DEB88265E571700B10B33 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB1DEB91265E572900B10B33 /* 01_OpenGL_Start */ = {
+			isa = PBXGroup;
+			children = (
+				AB1DEB92265E572900B10B33 /* main.cpp */,
+			);
+			path = 01_OpenGL_Start;
+			sourceTree = "<group>";
+		};
+		AB1DEB9E265E57C100B10B33 /* 02_KeyBoardCallBack */ = {
+			isa = PBXGroup;
+			children = (
+				AB1DEB9F265E57C100B10B33 /* main.cpp */,
+			);
+			path = 02_KeyBoardCallBack;
+			sourceTree = "<group>";
+		};
+		AB1DEBAB265FABDD00B10B33 /* 03_MouseCallback */ = {
+			isa = PBXGroup;
+			children = (
+				AB1DEBAC265FABDD00B10B33 /* main.cpp */,
+			);
+			path = 03_MouseCallback;
+			sourceTree = "<group>";
+		};
+		AB1DEBB8265FBEA700B10B33 /* 04_MenuCallBack */ = {
+			isa = PBXGroup;
+			children = (
+				AB1DEBB9265FBEA700B10B33 /* main.cpp */,
+			);
+			path = 04_MenuCallBack;
+			sourceTree = "<group>";
+		};
+		ABE723CE2660F36500532944 /* 05_Animation_Double Buffering */ = {
+			isa = PBXGroup;
+			children = (
+				ABE723CF2660F36500532944 /* main.cpp */,
+			);
+			path = "05_Animation_Double Buffering";
+			sourceTree = "<group>";
+		};
+		ABE723DB2660FC5600532944 /* 06_CubeDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				ABE723DC2660FC5600532944 /* main.cpp */,
+			);
+			path = 06_CubeDrawing;
+			sourceTree = "<group>";
+		};
+		ABE723E82666316400532944 /* 07_ModelTransform */ = {
+			isa = PBXGroup;
+			children = (
+				ABE723E92666316400532944 /* main.cpp */,
+			);
+			path = 07_ModelTransform;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +326,125 @@
 			productReference = AB1DEB7D265E570C00B10B33 /* Computer Graphics */;
 			productType = "com.apple.product-type.tool";
 		};
+		AB1DEB8F265E572900B10B33 /* 01_OpenGL_Start */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1DEB94265E572900B10B33 /* Build configuration list for PBXNativeTarget "01_OpenGL_Start" */;
+			buildPhases = (
+				AB1DEB8C265E572900B10B33 /* Sources */,
+				AB1DEB8D265E572900B10B33 /* Frameworks */,
+				AB1DEB8E265E572900B10B33 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 01_OpenGL_Start;
+			productName = 01_OpenGL_Start;
+			productReference = AB1DEB90265E572900B10B33 /* 01_OpenGL_Start */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB1DEB9C265E57C100B10B33 /* 02_KeyBoardCallBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1DEBA1265E57C100B10B33 /* Build configuration list for PBXNativeTarget "02_KeyBoardCallBack" */;
+			buildPhases = (
+				AB1DEB99265E57C100B10B33 /* Sources */,
+				AB1DEB9A265E57C100B10B33 /* Frameworks */,
+				AB1DEB9B265E57C100B10B33 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 02_KeyBoardCallBack;
+			productName = 02_KeyBoardCallBack;
+			productReference = AB1DEB9D265E57C100B10B33 /* 02_KeyBoardCallBack */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB1DEBA9265FABDD00B10B33 /* 03_MouseCallback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1DEBB0265FABDD00B10B33 /* Build configuration list for PBXNativeTarget "03_MouseCallback" */;
+			buildPhases = (
+				AB1DEBA6265FABDD00B10B33 /* Sources */,
+				AB1DEBA7265FABDD00B10B33 /* Frameworks */,
+				AB1DEBA8265FABDD00B10B33 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 03_MouseCallback;
+			productName = 03_MouseCallback;
+			productReference = AB1DEBAA265FABDD00B10B33 /* 03_MouseCallback */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB1DEBB6265FBEA700B10B33 /* 04_MenuCallBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1DEBBB265FBEA700B10B33 /* Build configuration list for PBXNativeTarget "04_MenuCallBack" */;
+			buildPhases = (
+				AB1DEBB3265FBEA700B10B33 /* Sources */,
+				AB1DEBB4265FBEA700B10B33 /* Frameworks */,
+				AB1DEBB5265FBEA700B10B33 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 04_MenuCallBack;
+			productName = 04_MenuCallBack;
+			productReference = AB1DEBB7265FBEA700B10B33 /* 04_MenuCallBack */;
+			productType = "com.apple.product-type.tool";
+		};
+		ABE723CC2660F36500532944 /* 05_Animation_Double Buffering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE723D32660F36500532944 /* Build configuration list for PBXNativeTarget "05_Animation_Double Buffering" */;
+			buildPhases = (
+				ABE723C92660F36500532944 /* Sources */,
+				ABE723CA2660F36500532944 /* Frameworks */,
+				ABE723CB2660F36500532944 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05_Animation_Double Buffering";
+			productName = "05_Animation_Double Buffering";
+			productReference = ABE723CD2660F36500532944 /* 05_Animation_Double Buffering */;
+			productType = "com.apple.product-type.tool";
+		};
+		ABE723D92660FC5600532944 /* 06_CubeDrawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE723DE2660FC5600532944 /* Build configuration list for PBXNativeTarget "06_CubeDrawing" */;
+			buildPhases = (
+				ABE723D62660FC5600532944 /* Sources */,
+				ABE723D72660FC5600532944 /* Frameworks */,
+				ABE723D82660FC5600532944 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 06_CubeDrawing;
+			productName = 06_CubeDrawing;
+			productReference = ABE723DA2660FC5600532944 /* 06_CubeDrawing */;
+			productType = "com.apple.product-type.tool";
+		};
+		ABE723E62666316400532944 /* 07_ModelTransform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE723EB2666316400532944 /* Build configuration list for PBXNativeTarget "07_ModelTransform" */;
+			buildPhases = (
+				ABE723E32666316400532944 /* Sources */,
+				ABE723E42666316400532944 /* Frameworks */,
+				ABE723E52666316400532944 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 07_ModelTransform;
+			productName = 07_ModelTransform;
+			productReference = ABE723E72666316400532944 /* 07_ModelTransform */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +455,27 @@
 				ORGANIZATIONNAME = "jaewon na";
 				TargetAttributes = {
 					AB1DEB7C265E570C00B10B33 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					AB1DEB8F265E572900B10B33 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					AB1DEB9C265E57C100B10B33 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					AB1DEBA9265FABDD00B10B33 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					AB1DEBB6265FBEA700B10B33 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					ABE723CC2660F36500532944 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					ABE723D92660FC5600532944 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					ABE723E62666316400532944 = {
 						CreatedOnToolsVersion = 11.6;
 					};
 				};
@@ -110,6 +494,13 @@
 			projectRoot = "";
 			targets = (
 				AB1DEB7C265E570C00B10B33 /* Computer Graphics */,
+				AB1DEB8F265E572900B10B33 /* 01_OpenGL_Start */,
+				AB1DEB9C265E57C100B10B33 /* 02_KeyBoardCallBack */,
+				AB1DEBA9265FABDD00B10B33 /* 03_MouseCallback */,
+				AB1DEBB6265FBEA700B10B33 /* 04_MenuCallBack */,
+				ABE723CC2660F36500532944 /* 05_Animation_Double Buffering */,
+				ABE723D92660FC5600532944 /* 06_CubeDrawing */,
+				ABE723E62666316400532944 /* 07_ModelTransform */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +510,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB1DEB81265E570C00B10B33 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1DEB8C265E572900B10B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1DEB93265E572900B10B33 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1DEB99265E57C100B10B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1DEBA0265E57C100B10B33 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1DEBA6265FABDD00B10B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1DEBAD265FABDD00B10B33 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1DEBB3265FBEA700B10B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1DEBBA265FBEA700B10B33 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE723C92660F36500532944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE723D02660F36500532944 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE723D62660FC5600532944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE723DD2660FC5600532944 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE723E32666316400532944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE723EA2666316400532944 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +701,146 @@
 			};
 			name = Release;
 		};
+		AB1DEB95265E572900B10B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB1DEB96265E572900B10B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB1DEBA2265E57C100B10B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB1DEBA3265E57C100B10B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB1DEBAE265FABDD00B10B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB1DEBAF265FABDD00B10B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB1DEBBC265FBEA700B10B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB1DEBBD265FBEA700B10B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABE723D12660F36500532944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABE723D22660F36500532944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABE723DF2660FC5600532944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABE723E02660FC5600532944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABE723EC2666316400532944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABE723ED2666316400532944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -272,6 +858,69 @@
 			buildConfigurations = (
 				AB1DEB85265E570C00B10B33 /* Debug */,
 				AB1DEB86265E570C00B10B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1DEB94265E572900B10B33 /* Build configuration list for PBXNativeTarget "01_OpenGL_Start" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1DEB95265E572900B10B33 /* Debug */,
+				AB1DEB96265E572900B10B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1DEBA1265E57C100B10B33 /* Build configuration list for PBXNativeTarget "02_KeyBoardCallBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1DEBA2265E57C100B10B33 /* Debug */,
+				AB1DEBA3265E57C100B10B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1DEBB0265FABDD00B10B33 /* Build configuration list for PBXNativeTarget "03_MouseCallback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1DEBAE265FABDD00B10B33 /* Debug */,
+				AB1DEBAF265FABDD00B10B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1DEBBB265FBEA700B10B33 /* Build configuration list for PBXNativeTarget "04_MenuCallBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1DEBBC265FBEA700B10B33 /* Debug */,
+				AB1DEBBD265FBEA700B10B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE723D32660F36500532944 /* Build configuration list for PBXNativeTarget "05_Animation_Double Buffering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE723D12660F36500532944 /* Debug */,
+				ABE723D22660F36500532944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE723DE2660FC5600532944 /* Build configuration list for PBXNativeTarget "06_CubeDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE723DF2660FC5600532944 /* Debug */,
+				ABE723E02660FC5600532944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE723EB2666316400532944 /* Build configuration list for PBXNativeTarget "07_ModelTransform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE723EC2666316400532944 /* Debug */,
+				ABE723ED2666316400532944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
