@@ -30,6 +30,15 @@
 		ABE723EA2666316400532944 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABE723E92666316400532944 /* main.cpp */; };
 		ABE723EE2666316A00532944 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB88265E571700B10B33 /* OpenGL.framework */; };
 		ABE723EF2666317800532944 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB8A265E571B00B10B33 /* GLUT.framework */; };
+		ABE723F72667A28B00532944 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABE723F62667A28B00532944 /* main.cpp */; };
+		ABE723FB2667A29200532944 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB88265E571700B10B33 /* OpenGL.framework */; };
+		ABE723FC2667A29600532944 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB8A265E571B00B10B33 /* GLUT.framework */; };
+		ABE72404266B94C200532944 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABE72403266B94C200532944 /* main.cpp */; };
+		ABE72408266B94C900532944 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB88265E571700B10B33 /* OpenGL.framework */; };
+		ABE72409266B94CD00532944 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB8A265E571B00B10B33 /* GLUT.framework */; };
+		ABE72411266CD17700532944 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABE72410266CD17700532944 /* main.cpp */; };
+		ABE72415266CD36E00532944 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB88265E571700B10B33 /* OpenGL.framework */; };
+		ABE72416266CD37800532944 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB8A265E571B00B10B33 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -105,6 +114,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		ABE723F22667A28B00532944 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ABE723FF266B94C200532944 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ABE7240C266CD17700532944 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -125,6 +161,12 @@
 		ABE723DC2660FC5600532944 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ABE723E72666316400532944 /* 07_ModelTransform */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 07_ModelTransform; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE723E92666316400532944 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ABE723F42667A28B00532944 /* 08_ViewTransform */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 08_ViewTransform; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE723F62667A28B00532944 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ABE72401266B94C200532944 /* 09_Projection Transform */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "09_Projection Transform"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE72403266B94C200532944 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ABE7240E266CD17700532944 /* 10_Visibility Detection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10_Visibility Detection"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE72410266CD17700532944 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +242,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABE723F12667A28B00532944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE723FC2667A29600532944 /* GLUT.framework in Frameworks */,
+				ABE723FB2667A29200532944 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE723FE266B94C200532944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE72409266B94CD00532944 /* GLUT.framework in Frameworks */,
+				ABE72408266B94C900532944 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE7240B266CD17700532944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE72416266CD37800532944 /* GLUT.framework in Frameworks */,
+				ABE72415266CD36E00532944 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -214,6 +283,9 @@
 				ABE723CE2660F36500532944 /* 05_Animation_Double Buffering */,
 				ABE723DB2660FC5600532944 /* 06_CubeDrawing */,
 				ABE723E82666316400532944 /* 07_ModelTransform */,
+				ABE723F52667A28B00532944 /* 08_ViewTransform */,
+				ABE72402266B94C200532944 /* 09_Projection Transform */,
+				ABE7240F266CD17700532944 /* 10_Visibility Detection */,
 				AB1DEB7E265E570C00B10B33 /* Products */,
 				AB1DEB87265E571600B10B33 /* Frameworks */,
 			);
@@ -230,6 +302,9 @@
 				ABE723CD2660F36500532944 /* 05_Animation_Double Buffering */,
 				ABE723DA2660FC5600532944 /* 06_CubeDrawing */,
 				ABE723E72666316400532944 /* 07_ModelTransform */,
+				ABE723F42667A28B00532944 /* 08_ViewTransform */,
+				ABE72401266B94C200532944 /* 09_Projection Transform */,
+				ABE7240E266CD17700532944 /* 10_Visibility Detection */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -304,6 +379,30 @@
 				ABE723E92666316400532944 /* main.cpp */,
 			);
 			path = 07_ModelTransform;
+			sourceTree = "<group>";
+		};
+		ABE723F52667A28B00532944 /* 08_ViewTransform */ = {
+			isa = PBXGroup;
+			children = (
+				ABE723F62667A28B00532944 /* main.cpp */,
+			);
+			path = 08_ViewTransform;
+			sourceTree = "<group>";
+		};
+		ABE72402266B94C200532944 /* 09_Projection Transform */ = {
+			isa = PBXGroup;
+			children = (
+				ABE72403266B94C200532944 /* main.cpp */,
+			);
+			path = "09_Projection Transform";
+			sourceTree = "<group>";
+		};
+		ABE7240F266CD17700532944 /* 10_Visibility Detection */ = {
+			isa = PBXGroup;
+			children = (
+				ABE72410266CD17700532944 /* main.cpp */,
+			);
+			path = "10_Visibility Detection";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,6 +544,57 @@
 			productReference = ABE723E72666316400532944 /* 07_ModelTransform */;
 			productType = "com.apple.product-type.tool";
 		};
+		ABE723F32667A28B00532944 /* 08_ViewTransform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE723F82667A28B00532944 /* Build configuration list for PBXNativeTarget "08_ViewTransform" */;
+			buildPhases = (
+				ABE723F02667A28B00532944 /* Sources */,
+				ABE723F12667A28B00532944 /* Frameworks */,
+				ABE723F22667A28B00532944 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 08_ViewTransform;
+			productName = 08_ViewTransform;
+			productReference = ABE723F42667A28B00532944 /* 08_ViewTransform */;
+			productType = "com.apple.product-type.tool";
+		};
+		ABE72400266B94C200532944 /* 09_Projection Transform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE72405266B94C200532944 /* Build configuration list for PBXNativeTarget "09_Projection Transform" */;
+			buildPhases = (
+				ABE723FD266B94C200532944 /* Sources */,
+				ABE723FE266B94C200532944 /* Frameworks */,
+				ABE723FF266B94C200532944 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "09_Projection Transform";
+			productName = "09_Projection Transform";
+			productReference = ABE72401266B94C200532944 /* 09_Projection Transform */;
+			productType = "com.apple.product-type.tool";
+		};
+		ABE7240D266CD17700532944 /* 10_Visibility Detection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE72412266CD17700532944 /* Build configuration list for PBXNativeTarget "10_Visibility Detection" */;
+			buildPhases = (
+				ABE7240A266CD17700532944 /* Sources */,
+				ABE7240B266CD17700532944 /* Frameworks */,
+				ABE7240C266CD17700532944 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10_Visibility Detection";
+			productName = "10_Visibility Detection";
+			productReference = ABE7240E266CD17700532944 /* 10_Visibility Detection */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -478,6 +628,15 @@
 					ABE723E62666316400532944 = {
 						CreatedOnToolsVersion = 11.6;
 					};
+					ABE723F32667A28B00532944 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					ABE72400266B94C200532944 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					ABE7240D266CD17700532944 = {
+						CreatedOnToolsVersion = 11.6;
+					};
 				};
 			};
 			buildConfigurationList = AB1DEB78265E570C00B10B33 /* Build configuration list for PBXProject "Computer Graphics" */;
@@ -501,6 +660,9 @@
 				ABE723CC2660F36500532944 /* 05_Animation_Double Buffering */,
 				ABE723D92660FC5600532944 /* 06_CubeDrawing */,
 				ABE723E62666316400532944 /* 07_ModelTransform */,
+				ABE723F32667A28B00532944 /* 08_ViewTransform */,
+				ABE72400266B94C200532944 /* 09_Projection Transform */,
+				ABE7240D266CD17700532944 /* 10_Visibility Detection */,
 			);
 		};
 /* End PBXProject section */
@@ -566,6 +728,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABE723EA2666316400532944 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE723F02667A28B00532944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE723F72667A28B00532944 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE723FD266B94C200532944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE72404266B94C200532944 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE7240A266CD17700532944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE72411266CD17700532944 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -841,6 +1027,66 @@
 			};
 			name = Release;
 		};
+		ABE723F92667A28B00532944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABE723FA2667A28B00532944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABE72406266B94C200532944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABE72407266B94C200532944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABE72413266CD17700532944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABE72414266CD17700532944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -921,6 +1167,33 @@
 			buildConfigurations = (
 				ABE723EC2666316400532944 /* Debug */,
 				ABE723ED2666316400532944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE723F82667A28B00532944 /* Build configuration list for PBXNativeTarget "08_ViewTransform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE723F92667A28B00532944 /* Debug */,
+				ABE723FA2667A28B00532944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE72405266B94C200532944 /* Build configuration list for PBXNativeTarget "09_Projection Transform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE72406266B94C200532944 /* Debug */,
+				ABE72407266B94C200532944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE72412266CD17700532944 /* Build configuration list for PBXNativeTarget "10_Visibility Detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE72413266CD17700532944 /* Debug */,
+				ABE72414266CD17700532944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

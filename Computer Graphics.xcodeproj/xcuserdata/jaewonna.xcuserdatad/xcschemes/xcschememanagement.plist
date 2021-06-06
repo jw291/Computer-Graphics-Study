@@ -39,6 +39,21 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>08_ViewTransform.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>09_Projection Transform.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>10_Visibility Detection.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>Computer Graphics.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
