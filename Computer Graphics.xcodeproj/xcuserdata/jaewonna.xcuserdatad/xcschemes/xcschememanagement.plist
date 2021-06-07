@@ -54,6 +54,16 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>12-1_Anti Aliasing_ChessBoard.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>12_Anti Aliasing.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>Computer Graphics.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
