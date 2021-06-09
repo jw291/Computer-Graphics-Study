@@ -9,6 +9,8 @@ GLfloat camPos_x = 0, camPos_y = 5, camPos_z = -4; //위치
 GLfloat camAt_x = 0, camAt_y = 0, camAt_z = 10; //바라보는 곳
 GLfloat camUp_x = 0, camUp_y = 1, camUp_z = 0; //방향
 
+GLfloat Light0_pos_x = 5.0, Light0_pos_y = 5.0, Light0_pos_z = 0.0;
+
 void MyReshape(int width, int height){
     GLfloat left = 0, bottom = 0;
     glViewport(left, bottom, width-left, height-bottom);
