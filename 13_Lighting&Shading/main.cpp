@@ -86,6 +86,8 @@ void MyDisplay(){
     drawWall(2.5);
     drawSphere();
     //glColor3f(0.8, 0.2, 0.0);
+    
+    glEnable(GL_COLOR_MATERIAL);
     glFlush();
 }
 
@@ -95,6 +97,7 @@ void Init_light(){
     glEnable(GL_LIGHTING); //빛을 쓰겠다
     glShadeModel(GL_SMOOTH); //구로 셰이딩 쓰겠다 퐁 셰이딩은 GL에 없음
     glEnable(GL_DEPTH_TEST);
+    
     
     GLfloat light_global_ambient[] = {0.3,0.3,0.3, 1}; //전역 주변광 색깔 지정
     glLightModelfv(GL_LIGHT_MODEL_AMBIENT, light_global_ambient);//전역 주변광을 주겠다.
