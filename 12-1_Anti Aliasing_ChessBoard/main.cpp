@@ -49,10 +49,12 @@ void MyDisplay(){
     gluLookAt(camPos_x, camPos_y, camPos_z, camAt_x, camAt_y, camAt_z, camUp_x,camUp_y, camUp_z);
     
     glEnable(GL_BLEND);
-    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+    
     glEnable(GL_POLYGON_SMOOTH);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     glHint(GL_POINT_SMOOTH_HINT, GL_NICEST);
-    for(int i =0; i < 100; i++){
+    
+    for(int i =0; i < 1000; i++){
         for(int j =0; j < 1000; j++){
             int bBlack = (i+j)%2;
             drawBlackWhiteRect(i, j, -10, 0, 0, 0.2, bBlack);

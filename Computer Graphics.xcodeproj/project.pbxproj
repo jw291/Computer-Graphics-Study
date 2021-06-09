@@ -45,6 +45,9 @@
 		ABE7242B266E467800532944 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABE7242A266E467800532944 /* main.cpp */; };
 		ABE7242F266E468400532944 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB88265E571700B10B33 /* OpenGL.framework */; };
 		ABE72430266E468900532944 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB8A265E571B00B10B33 /* GLUT.framework */; };
+		ABE72438266F846700532944 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABE72437266F846700532944 /* main.cpp */; };
+		ABE7243C266F847200532944 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB88265E571700B10B33 /* OpenGL.framework */; };
+		ABE7243D266F847500532944 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB8A265E571B00B10B33 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -165,6 +168,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		ABE72433266F846700532944 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -195,6 +207,8 @@
 		ABE7241D266E403600532944 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ABE72428266E467700532944 /* 12-1_Anti Aliasing_ChessBoard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-1_Anti Aliasing_ChessBoard"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE7242A266E467800532944 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ABE72435266F846700532944 /* 13_Lighting&Shading */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13_Lighting&Shading"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE72437266F846700532944 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -315,6 +329,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABE72432266F846700532944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE7243D266F847500532944 /* GLUT.framework in Frameworks */,
+				ABE7243C266F847200532944 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -334,6 +357,7 @@
 				ABE7240F266CD17700532944 /* 10_Visibility Detection */,
 				ABE7241C266E403600532944 /* 12_Anti Aliasing */,
 				ABE72429266E467800532944 /* 12-1_Anti Aliasing_ChessBoard */,
+				ABE72436266F846700532944 /* 13_Lighting&Shading */,
 				AB1DEB7E265E570C00B10B33 /* Products */,
 				AB1DEB87265E571600B10B33 /* Frameworks */,
 			);
@@ -355,6 +379,7 @@
 				ABE7240E266CD17700532944 /* 10_Visibility Detection */,
 				ABE7241B266E403600532944 /* 12_Anti Aliasing */,
 				ABE72428266E467700532944 /* 12-1_Anti Aliasing_ChessBoard */,
+				ABE72435266F846700532944 /* 13_Lighting&Shading */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -469,6 +494,14 @@
 				ABE7242A266E467800532944 /* main.cpp */,
 			);
 			path = "12-1_Anti Aliasing_ChessBoard";
+			sourceTree = "<group>";
+		};
+		ABE72436266F846700532944 /* 13_Lighting&Shading */ = {
+			isa = PBXGroup;
+			children = (
+				ABE72437266F846700532944 /* main.cpp */,
+			);
+			path = "13_Lighting&Shading";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -695,6 +728,23 @@
 			productReference = ABE72428266E467700532944 /* 12-1_Anti Aliasing_ChessBoard */;
 			productType = "com.apple.product-type.tool";
 		};
+		ABE72434266F846700532944 /* 13_Lighting&Shading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE72439266F846700532944 /* Build configuration list for PBXNativeTarget "13_Lighting&Shading" */;
+			buildPhases = (
+				ABE72431266F846700532944 /* Sources */,
+				ABE72432266F846700532944 /* Frameworks */,
+				ABE72433266F846700532944 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13_Lighting&Shading";
+			productName = "13_Lighting&Shading";
+			productReference = ABE72435266F846700532944 /* 13_Lighting&Shading */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -743,6 +793,9 @@
 					ABE72427266E467700532944 = {
 						CreatedOnToolsVersion = 11.6;
 					};
+					ABE72434266F846700532944 = {
+						CreatedOnToolsVersion = 11.6;
+					};
 				};
 			};
 			buildConfigurationList = AB1DEB78265E570C00B10B33 /* Build configuration list for PBXProject "Computer Graphics" */;
@@ -771,6 +824,7 @@
 				ABE7240D266CD17700532944 /* 10_Visibility Detection */,
 				ABE7241A266E403600532944 /* 12_Anti Aliasing */,
 				ABE72427266E467700532944 /* 12-1_Anti Aliasing_ChessBoard */,
+				ABE72434266F846700532944 /* 13_Lighting&Shading */,
 			);
 		};
 /* End PBXProject section */
@@ -876,6 +930,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABE7242B266E467800532944 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE72431266F846700532944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE72438266F846700532944 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1251,6 +1313,26 @@
 			};
 			name = Release;
 		};
+		ABE7243A266F846700532944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABE7243B266F846700532944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1376,6 +1458,15 @@
 			buildConfigurations = (
 				ABE7242D266E467800532944 /* Debug */,
 				ABE7242E266E467800532944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE72439266F846700532944 /* Build configuration list for PBXNativeTarget "13_Lighting&Shading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE7243A266F846700532944 /* Debug */,
+				ABE7243B266F846700532944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
