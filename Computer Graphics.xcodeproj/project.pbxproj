@@ -54,6 +54,9 @@
 		ABE724522670C2A100532944 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABE724512670C2A100532944 /* main.cpp */; };
 		ABE724562670C2AA00532944 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB88265E571700B10B33 /* OpenGL.framework */; };
 		ABE724572670C2AE00532944 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB8A265E571B00B10B33 /* GLUT.framework */; };
+		ABE7245F26720B9E00532944 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABE7245E26720B9E00532944 /* main.cpp */; };
+		ABE7246326720BA400532944 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB88265E571700B10B33 /* OpenGL.framework */; };
+		ABE7246426720BA900532944 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEB8A265E571B00B10B33 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -201,6 +204,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		ABE7245A26720B9E00532944 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -237,6 +249,9 @@
 		ABE724442670ACE600532944 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ABE7244F2670C2A100532944 /* 14_ObjectLoad */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 14_ObjectLoad; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE724512670C2A100532944 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ABE7245C26720B9E00532944 /* 15_Texture Mapping */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15_Texture Mapping"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE7245E26720B9E00532944 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ABE724652672273400532944 /* 15_Texture Mapping.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "15_Texture Mapping.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -384,6 +399,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABE7245926720B9E00532944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE7246426720BA900532944 /* GLUT.framework in Frameworks */,
+				ABE7246326720BA400532944 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -406,6 +430,7 @@
 				ABE72436266F846700532944 /* 13_Lighting&Shading */,
 				ABE724432670ACE600532944 /* 13-1_SpotLight */,
 				ABE724502670C2A100532944 /* 14_ObjectLoad */,
+				ABE7245D26720B9E00532944 /* 15_Texture Mapping */,
 				AB1DEB7E265E570C00B10B33 /* Products */,
 				AB1DEB87265E571600B10B33 /* Frameworks */,
 			);
@@ -430,6 +455,7 @@
 				ABE72435266F846700532944 /* 13_Lighting&Shading */,
 				ABE724422670ACE600532944 /* 13-1_SpotLight */,
 				ABE7244F2670C2A100532944 /* 14_ObjectLoad */,
+				ABE7245C26720B9E00532944 /* 15_Texture Mapping */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -568,6 +594,15 @@
 				ABE724512670C2A100532944 /* main.cpp */,
 			);
 			path = 14_ObjectLoad;
+			sourceTree = "<group>";
+		};
+		ABE7245D26720B9E00532944 /* 15_Texture Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				ABE724652672273400532944 /* 15_Texture Mapping.entitlements */,
+				ABE7245E26720B9E00532944 /* main.cpp */,
+			);
+			path = "15_Texture Mapping";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -845,6 +880,23 @@
 			productReference = ABE7244F2670C2A100532944 /* 14_ObjectLoad */;
 			productType = "com.apple.product-type.tool";
 		};
+		ABE7245B26720B9E00532944 /* 15_Texture Mapping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE7246026720B9E00532944 /* Build configuration list for PBXNativeTarget "15_Texture Mapping" */;
+			buildPhases = (
+				ABE7245826720B9E00532944 /* Sources */,
+				ABE7245926720B9E00532944 /* Frameworks */,
+				ABE7245A26720B9E00532944 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "15_Texture Mapping";
+			productName = "15_Texture Mapping";
+			productReference = ABE7245C26720B9E00532944 /* 15_Texture Mapping */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -902,6 +954,9 @@
 					ABE7244E2670C2A100532944 = {
 						CreatedOnToolsVersion = 11.6;
 					};
+					ABE7245B26720B9E00532944 = {
+						CreatedOnToolsVersion = 11.6;
+					};
 				};
 			};
 			buildConfigurationList = AB1DEB78265E570C00B10B33 /* Build configuration list for PBXProject "Computer Graphics" */;
@@ -933,6 +988,7 @@
 				ABE72434266F846700532944 /* 13_Lighting&Shading */,
 				ABE724412670ACE600532944 /* 13-1_SpotLight */,
 				ABE7244E2670C2A100532944 /* 14_ObjectLoad */,
+				ABE7245B26720B9E00532944 /* 15_Texture Mapping */,
 			);
 		};
 /* End PBXProject section */
@@ -1062,6 +1118,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABE724522670C2A100532944 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE7245826720B9E00532944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE7245F26720B9E00532944 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1497,6 +1561,150 @@
 			};
 			name = Release;
 		};
+		ABE7246126720B9E00532944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "15_Texture Mapping/15_Texture Mapping.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/opencv/4.5.2_4/include/opencv4;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv/4.5.2_4/lib;
+				OTHER_LDFLAGS = (
+					"-I/usr/local/Cellar/opencv/4.5.2_4/include/opencv4",
+					"-L/usr/local/Cellar/opencv/4.5.2_4/lib",
+					"-lopencv_gapi",
+					"-lopencv_stitching",
+					"-lopencv_alphamat",
+					"-lopencv_aruco",
+					"-lopencv_bgsegm",
+					"-lopencv_bioinspired",
+					"-lopencv_ccalib",
+					"-lopencv_dnn_objdetect",
+					"-lopencv_dnn_superres",
+					"-lopencv_dpm",
+					"-lopencv_face",
+					"-lopencv_freetype",
+					"-lopencv_fuzzy",
+					"-lopencv_hfs",
+					"-lopencv_img_hash",
+					"-lopencv_intensity_transform",
+					"-lopencv_line_descriptor",
+					"-lopencv_mcc",
+					"-lopencv_quality",
+					"-lopencv_rapid",
+					"-lopencv_reg",
+					"-lopencv_rgbd",
+					"-lopencv_saliency",
+					"-lopencv_sfm",
+					"-lopencv_stereo",
+					"-lopencv_structured_light",
+					"-lopencv_phase_unwrapping",
+					"-lopencv_superres",
+					"-lopencv_optflow",
+					"-lopencv_surface_matching",
+					"-lopencv_tracking",
+					"-lopencv_highgui",
+					"-lopencv_datasets",
+					"-lopencv_text",
+					"-lopencv_plot",
+					"-lopencv_videostab",
+					"-lopencv_videoio",
+					"-lopencv_viz",
+					"-lopencv_wechat_qrcode",
+					"-lopencv_xfeatures2d",
+					"-lopencv_shape",
+					"-lopencv_ml",
+					"-lopencv_ximgproc",
+					"-lopencv_video",
+					"-lopencv_dnn",
+					"-lopencv_xobjdetect",
+					"-lopencv_objdetect",
+					"-lopencv_calib3d",
+					"-lopencv_imgcodecs",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_xphoto",
+					"-lopencv_photo",
+					"-lopencv_imgproc",
+					"-lopencv_core",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABE7246226720B9E00532944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "15_Texture Mapping/15_Texture Mapping.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV4G5YZ4T2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/opencv/4.5.2_4/include/opencv4;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv/4.5.2_4/lib;
+				OTHER_LDFLAGS = (
+					"-I/usr/local/Cellar/opencv/4.5.2_4/include/opencv4",
+					"-L/usr/local/Cellar/opencv/4.5.2_4/lib",
+					"-lopencv_gapi",
+					"-lopencv_stitching",
+					"-lopencv_alphamat",
+					"-lopencv_aruco",
+					"-lopencv_bgsegm",
+					"-lopencv_bioinspired",
+					"-lopencv_ccalib",
+					"-lopencv_dnn_objdetect",
+					"-lopencv_dnn_superres",
+					"-lopencv_dpm",
+					"-lopencv_face",
+					"-lopencv_freetype",
+					"-lopencv_fuzzy",
+					"-lopencv_hfs",
+					"-lopencv_img_hash",
+					"-lopencv_intensity_transform",
+					"-lopencv_line_descriptor",
+					"-lopencv_mcc",
+					"-lopencv_quality",
+					"-lopencv_rapid",
+					"-lopencv_reg",
+					"-lopencv_rgbd",
+					"-lopencv_saliency",
+					"-lopencv_sfm",
+					"-lopencv_stereo",
+					"-lopencv_structured_light",
+					"-lopencv_phase_unwrapping",
+					"-lopencv_superres",
+					"-lopencv_optflow",
+					"-lopencv_surface_matching",
+					"-lopencv_tracking",
+					"-lopencv_highgui",
+					"-lopencv_datasets",
+					"-lopencv_text",
+					"-lopencv_plot",
+					"-lopencv_videostab",
+					"-lopencv_videoio",
+					"-lopencv_viz",
+					"-lopencv_wechat_qrcode",
+					"-lopencv_xfeatures2d",
+					"-lopencv_shape",
+					"-lopencv_ml",
+					"-lopencv_ximgproc",
+					"-lopencv_video",
+					"-lopencv_dnn",
+					"-lopencv_xobjdetect",
+					"-lopencv_objdetect",
+					"-lopencv_calib3d",
+					"-lopencv_imgcodecs",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_xphoto",
+					"-lopencv_photo",
+					"-lopencv_imgproc",
+					"-lopencv_core",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1649,6 +1857,15 @@
 			buildConfigurations = (
 				ABE724542670C2A100532944 /* Debug */,
 				ABE724552670C2A100532944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE7246026720B9E00532944 /* Build configuration list for PBXNativeTarget "15_Texture Mapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE7246126720B9E00532944 /* Debug */,
+				ABE7246226720B9E00532944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
