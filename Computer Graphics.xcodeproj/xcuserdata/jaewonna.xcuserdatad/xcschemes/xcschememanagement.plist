@@ -79,6 +79,21 @@
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
+		<key>15-01_Texture Mapping With Model.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
+		<key>15-01_Texture Mapping_Cube.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>15-01_Texuture_Mapping_Cube.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
 		<key>15_Texture Mapping.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
